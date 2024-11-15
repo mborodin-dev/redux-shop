@@ -1,0 +1,98 @@
+// ProductSkeleton.module.scss
+.productSkeleton {
+  width: 350px;
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.imageSkeleton {
+  width: 100%;
+  height: 300px;
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  animation: shimmer 1.5s infinite;
+}
+
+.priceSkeleton {
+  width: 80px;
+  height: 20px;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  animation: shimmer 1.5s infinite;
+}
+
+.ratingSkeleton {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.starSkeleton {
+  width: 16px;
+  height: 16px;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  animation: shimmer 1.5s infinite;
+}
+
+.reviewsSkeleton {
+  width: 30px;
+  height: 16px;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  animation: shimmer 1.5s infinite;
+}
+
+.titleSkeleton {
+  width: 60%;
+  height: 20px;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  animation: shimmer 1.5s infinite;
+}
+
+.descriptionSkeleton {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.lineSkeleton {
+  width: 100%;
+  height: 14px;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  animation: shimmer 1.5s infinite;
+}
+
+.buttonContainerSkeleton {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.buttonSkeleton {
+  flex: 1;
+  height: 40px;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-color: #e0e0e0;
+  }
+  50% {
+    background-color: #f0f0f0;
+  }
+  100% {
+    background-color: #e0e0e0;
+  }
+}
